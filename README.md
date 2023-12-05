@@ -41,7 +41,6 @@ npm install --save-dev @babel/preset-env
 
 ```json
 {
-  // 중략
   "scripts": {
     "build": "babel src -w -d dist"
   }
@@ -86,7 +85,6 @@ npm install @babel/polyfill
 
 ```json
 {
-  // 중략
   "scripts": {
     "build": "webpack -w"
   }
